@@ -1,0 +1,7 @@
+name: Milk
+description: The fresh, full cream variety.
+temperature: 0.3
+viscosity: 0.45
+heatCapacity: 0.4
+effect: wet
+color: fff8e7
