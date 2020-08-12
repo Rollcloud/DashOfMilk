@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Kettle
+description: Combines tea leaves, water, and just a dash of milk to make the best tea.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: producesmoke
+consumes: {
+  power: 30
+  items: {
+    items: [
+      tea-leaves/2
+    ]
+  }
+  liquid: {
+    milk/1
+    water/6
+  }
+}
+requirements: [
+  copper/80
+  metaglass/50
+  silicon/10
+]
+category: crafting
+research: tea-leaf-grower
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: spore-pod/2
+outputLiquid: tea/7
