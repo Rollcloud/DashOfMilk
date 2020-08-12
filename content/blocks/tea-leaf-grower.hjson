@@ -1,0 +1,28 @@
+type: Cultivator
+name: "Tea Leaf Grower"
+description: "Grows and dries out tea leaves."
+liquidCapacity: 50
+outputItem: {
+  liquid: tea-leaves
+  amount: 4
+}
+recurrence: 6
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+consumes: {
+  power: 0.6
+  liquid: {
+    water/10.0
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  metaglass/60
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
