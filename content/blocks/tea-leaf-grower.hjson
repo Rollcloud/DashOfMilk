@@ -2,20 +2,15 @@ type: Cultivator
 name: "Tea Leaf Grower"
 description: "Grows and dries out tea leaves."
 liquidCapacity: 50
-outputItem: {
-  liquid: tea-leaves
-  amount: 4
-}
-recurrence: 6
+outputItem: tea-leaves/4
+recurrence: 3
 size: 2
 hasPower: true
 hasLiquids: true
 craftTime: 10
 consumes: {
   power: 0.6
-  liquid: {
-    water/10.0
-  }
+  liquid: water/10
 }
 requirements: [
   lead/50
