@@ -15,10 +15,7 @@ consumes: {
       tea-leaves/2
     ]
   }
-  liquid: [
-    milk/1
-    water/6
-  ]
+  liquid: water/6
 }
 requirements: [
   copper/80
