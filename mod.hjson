@@ -1,6 +1,6 @@
-name: "example-mod"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "3.2"
+name: "dash-of-milk"
+displayName: "A Dash of Milk" //what displays in the mod selection menu
+author: "Rollcloud"
+description: "A simple mod. Adds[brown] tea[] and[white] milk[]."
+version: "0.1"
 minGameVersion: "103"
