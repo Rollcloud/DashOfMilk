@@ -2,3 +2,4 @@ type: resource
 name: Tea Leaves
 description: Whole-leaf tea, ready for steeping. Only used for tea production.
 color: 68513f
+flammability: 0.3
