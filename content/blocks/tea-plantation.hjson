@@ -1,16 +1,17 @@
 type: Cultivator
 name: "Tea Plantation"
 description: "Grows and dries out tea leaves."
-liquidCapacity: 50
-outputItem: tea-leaves/4
+liquidCapacity: 20
+outputItem: tea-leaves/1
 recurrence: 3
 size: 2
 hasPower: true
 hasLiquids: true
 craftTime: 250
+updateEffect: ripple
 consumes: {
-  power: 0.1
-  liquid: water/3
+  power: 0.167
+  liquid: water/0.192
 }
 requirements: [
   lead/50
