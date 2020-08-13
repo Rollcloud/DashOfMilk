@@ -1,5 +1,5 @@
 type: Cultivator
-name: "Tea Leaf Grower"
+name: "Tea Plantation"
 description: "Grows and dries out tea leaves."
 liquidCapacity: 50
 outputItem: tea-leaves/4
@@ -17,7 +17,7 @@ requirements: [
   copper/80
   metaglass/60
 ]
-category: crafting
+category: production
 research: kiln
 idleSound: respawning
 idleSoundVolume: 0.5
