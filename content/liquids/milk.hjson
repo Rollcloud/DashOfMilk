@@ -5,3 +5,4 @@ viscosity: 0.45
 heatCapacity: 0.4
 effect: wet
 color: fff8e7
+booster: false
