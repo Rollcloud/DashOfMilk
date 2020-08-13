@@ -7,10 +7,10 @@ recurrence: 3
 size: 2
 hasPower: true
 hasLiquids: true
-craftTime: 10
+craftTime: 250
 consumes: {
-  power: 0.6
-  liquid: water/10
+  power: 0.1
+  liquid: water/3
 }
 requirements: [
   lead/50
