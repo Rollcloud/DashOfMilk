@@ -1,7 +1,7 @@
 name: Tea
 description: A cup of brown joy - with milk.
-temperature: 0.7
-viscosity: 0.46
+temperature: 0.8
+viscosity: 0.48
 heatCapacity: 0.4
-effect: melting
+effect: overdrive
 color: 9b4422
