@@ -7,7 +7,8 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 craftTime: 120
-updateEffect: producesmoke
+updateEffect: steam
+craftEffect: bubble
 consumes: {
   power: 0.8
   items: {
@@ -15,7 +16,7 @@ consumes: {
       tea-leaves/2
     ]
   }
-  liquid: water/1
+  liquid: water/0.125
 }
 requirements: [
   copper/80
@@ -27,4 +28,4 @@ research: tea-plantation
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: spore-pod/1
-outputLiquid: tea/2
+outputLiquid: tea/15
