@@ -6,25 +6,25 @@ size: 2
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 60
+craftTime: 120
 updateEffect: producesmoke
 consumes: {
-  power: 30
+  power: 0.8
   items: {
     items: [
       tea-leaves/2
     ]
   }
-  liquid: water/6
+  liquid: water/1
 }
 requirements: [
   copper/80
-  metaglass/50
+  metaglass/30
   silicon/10
 ]
 category: crafting
 research: tea-plantation
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: spore-pod/2
-outputLiquid: tea/7
+outputItem: spore-pod/1
+outputLiquid: tea/2
